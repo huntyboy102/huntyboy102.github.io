@@ -1,7 +1,5 @@
 <!DOCTYPE html>
 
-<!-- Fig. 16.5: SwitchContent.html -->
-<!-- Asynchronously display content without reloading the page. -->
 <html>
 <head>
    <meta charset = "utf-8">
@@ -18,27 +16,27 @@
          var img;
          img = document.getElementById("leafs");
          img.addEventListener( "mouseover", 
-            function() { getContent("leafs.html"); }, false ); 
+            function() { getContent("./InfoFiles/leafs.html"); }, false ); 
          img.addEventListener( "mouseout", clearContent, false ); 
          img = document.getElementById( "blues" );
          img.addEventListener( "mouseover", 
-            function() { getContent( "blues.html" ); }, false ); 
+            function() { getContent("./InfoFiles/blues.html"); }, false ); 
          img.addEventListener( "mouseout", clearContent, false ); 
          img = document.getElementById( "jays" );
          img.addEventListener( "mouseover", 
-            function() { getContent( "jays.html" ); }, false ); 
+            function() { getContent("./InfoFiles/jays.html"); }, false ); 
          img.addEventListener( "mouseout", clearContent, false ); 
          img = document.getElementById( "raptors" );
          img.addEventListener( "mouseover", 
-            function() { getContent( "raptors.html" ); }, false ); 
+            function() { getContent("./InfoFiles/raptors.html"); }, false ); 
          img.addEventListener( "mouseout", clearContent, false ); 
          img = document.getElementById( "canadiens" );
          img.addEventListener( "mouseover", 
-            function() { getContent( "canadiens.html" ); }, false );
+            function() { getContent("./InfoFiles/canadiens.html"); }, false );
          img.addEventListener( "mouseout", clearContent, false ); 
          img = document.getElementById( "cowboys" );
          img.addEventListener( "mouseover", 
-            function() { getContent( "cowboys.html" ); }, false ); 
+            function() { getContent("./InfoFiles/cowboys.html"); }, false ); 
          img.addEventListener( "mouseout", clearContent, false ); 
       } // end function registerListeners
 
